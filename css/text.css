@@ -1,0 +1,72 @@
+.text-cover {
+	font-size: 32px;
+	font-family: 'Carattere', cursive;
+}
+
+.text-cover-mempelai {
+	font-size: 38px;
+	font-family: 'Charm', cursive;
+}
+
+.text-cover-mengundang {
+	font-size: 24px;
+	font-family: 'Charm', cursive;
+}
+
+.event-title {
+	font-family: 'Sofia', cursive;
+}
+
+.text-comment-date {
+	font-size: 0.6em;
+}
+
+.text-comment-body {
+    line-height: 13px;
+    color: #2b2b2b;
+    font-weight: bold;
+    font-size: 14px
+}
+
+.text-title {
+	font-family: 'Sail', cursive;
+	font-size: 1.2em;
+}
+
+.text-body {
+	font-family: 'Dosis', sans-serif;
+}
+
+.strikethrough {
+	position: relative;
+}
+.strikethrough:before {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 50%;
+	right: 0;
+	border-top: 1px solid;
+	border-color: inherit;
+
+	-webkit-transform:rotate(-5deg);
+	-moz-transform:rotate(-5deg);
+	-ms-transform:rotate(-5deg);
+	-o-transform:rotate(-5deg);
+	transform:rotate(-5deg);
+}
+
+@media only screen and (min-width: 1024px) {
+	.text-title-doa {
+		font-family: 'Sail', cursive;
+		font-size: 1.6em;
+	}
+
+	.text-body {
+		font-family: 'Dosis', sans-serif;
+		font-size: 1em;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+}
+
